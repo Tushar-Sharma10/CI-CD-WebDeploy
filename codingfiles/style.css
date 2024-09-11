@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ageCalc {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    background-color: antiquewhite;
+    color: darkblue;
+    height: 50vh;
+    width: 50vw;
+}
+
+.ageCalc h2 {
+    font-size: 35px;
+    margin: 2px auto;
+}
+
+hr {
+    border-color: red;
+    font-weight: bolder;
+}
+
+.details {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+#submit {
+    width: 15vw;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.output {
+    margin: auto;
+}
