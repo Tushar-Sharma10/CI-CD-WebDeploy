@@ -25,7 +25,7 @@ end
 
 #RUNNING THE DOCKER CONTAINER FOR THE WEB APPLICATION
  execute "run docker container" do
-  command "docker run --name web-app-container -d -p 8080:80 tusharsharma01/web-app:latest"
+  command "docker run --name web-app-container -d -p 8080:8080 tusharsharma01/web-app:latest"
   not_if "docker ps | grep web-app-container"
  end
 
