@@ -6,8 +6,9 @@ This project demonstrates the integration of Chef, Docker, and Git to automate t
 
 # Objectives:
 
-Automate Infrastructure Setup: Use Chef to automate the installation and configuration of Docker on the target server.
-Containerize the Application: Employ Docker to create a container for the web application, ensuring it runs consistently across various environments.
+1.) Automate Infrastructure Setup: Use Chef to automate the installation and configuration of Docker on the target server.
+
+2.) Containerize the Application: Employ Docker to create a container for the web application, ensuring it runs consistently across various environments.
 # Version Control:
  Utilize Git for tracking changes to configuration files and scripts, facilitating collaboration and maintaining a history of modifications.
 # Project Details
@@ -22,15 +23,20 @@ Chef Workstation: Required for authoring and testing Chef cookbooks. Install fro
 Purpose: Automates Docker installation and web application deployment.
 Location: cookbooks/your-cookbook/recipes/default.rb
 # Key Actions:
-Updates system packages.
-Installs and configures Docker.
-Pulls the Docker image from Docker Hub.
-Runs the Docker container for the web application.
+1.) Updates system packages.
+
+2.) Installs and configures Docker.
+
+3.) Pulls the Docker image from Docker Hub.
+
+4.) Runs the Docker container for the web application.
 
 # b. Docker Container
 Purpose: Containerizes the web application for consistent deployment.
 Location: Dockerfile
 # Key Actions:
-Uses Node.js LTS version as the base image.
-Installs http-server and copies the application files.
-Exposes port 8080 and starts the web server.
+1.) Uses Node.js LTS version as the base image.
+
+2.) Installs http-server and copies the application files.
+
+3.) Exposes port 8080 and starts the web server.
